@@ -101,7 +101,7 @@ public:
 
         }
 
-        //snake bites itself
+        //if snake bites itself
         for(int i=1;i<length;i++)
         {
             if(body[0].xCoord == body[i].xCoord && body[0].yCoord == body[i].yCoord)
